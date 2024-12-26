@@ -1,0 +1,17 @@
+/* src/App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  margin-top: 60px;  /* Make space for fixed navbar */
+  margin-bottom: 40px;  /* Make space for fixed footer */
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.page {
+  text-align: center;
+}
